@@ -41,6 +41,11 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
         <source>The Litecoin developers</source>
         <translation>Litecoin curatores</translation>
     </message>
+    <message>
+        <location line="+0"/>
+        <source>The Roulettecoin developers</source>
+        <translation>Roulettecoin curatores</translation>
+    </message>
 </context>
 <context>
     <name>AddressBookPage</name>
@@ -1660,6 +1665,11 @@ Inscriptio: %4
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
         <translation>Litecoin curatores</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Roulettecoin developers</source>
+        <translation>Roulettecoin curatores</translation>
     </message>
     <message>
         <location line="+1"/>

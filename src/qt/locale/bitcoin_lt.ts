@@ -41,6 +41,11 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
         <source>The Litecoin developers</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location line="+0"/>
+        <source>The Roulettecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>AddressBookPage</name>
@@ -1658,6 +1663,11 @@ Adresas: %4</translation>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Roulettecoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -42,6 +42,11 @@ Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im Open
         <source>The Litecoin developers</source>
         <translation>Die Litecoinentwickler</translation>
     </message>
+    <message>
+        <location line="+0"/>
+        <source>The Roulettecoin developers</source>
+        <translation>Die Roulettecoinentwickler</translation>
+    </message>
 </context>
 <context>
     <name>AddressBookPage</name>
@@ -1660,6 +1665,11 @@ Adresse: %4</translation>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
         <translation>Die Litecoinentwickler</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Roulettecoin developers</source>
+        <translation>Die Roulettecoinentwickler</translation>
     </message>
     <message>
         <location line="+1"/>

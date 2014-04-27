@@ -45,6 +45,11 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
         <source>The Litecoin developers</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location line="+0"/>
+        <source>The Roulettecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>AddressBookPage</name>
@@ -1663,6 +1668,11 @@ Dirección: %4</translation>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Roulettecoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>

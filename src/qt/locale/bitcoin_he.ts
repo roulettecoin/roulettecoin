@@ -42,6 +42,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <source>The Litecoin developers</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <location line="+0"/>
+        <source>The Roulettecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>AddressBookPage</name>
@@ -1659,6 +1664,11 @@ Address: %4
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Roulettecoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
