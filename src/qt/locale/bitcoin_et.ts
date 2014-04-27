@@ -1416,8 +1416,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Tehingu saaja aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Tehingu saaja aadress (nt: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1457,8 +1457,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Roulettecoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Sisesta Roulettecoini aadress (nt: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</translation>
     </message>
 </context>
 <context>
@@ -1480,8 +1480,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sõnumi signeerimise aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Sõnumi signeerimise aadress (nt: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1553,8 +1553,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta Roulettecoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Sisesta Roulettecoini aadress (nt: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</translation>
     </message>
     <message>
         <location line="-2"/>

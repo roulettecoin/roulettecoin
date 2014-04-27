@@ -1417,7 +1417,7 @@ Cím: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to send the payment to (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1459,8 +1459,8 @@ Cím: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy Roulettecoin-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>Enter a Roulettecoin address (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Adj meg egy Roulettecoin-címet (pl.: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE )</translation>
     </message>
 </context>
 <context>
@@ -1482,8 +1482,8 @@ Cím: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy Roulettecoin-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>The address to sign the message with (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Adj meg egy Roulettecoin-címet (pl.: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE )</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1555,8 +1555,8 @@ Cím: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy Roulettecoin-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>The address the message was signed with (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Adj meg egy Roulettecoin-címet (pl.: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE )</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1576,8 +1576,8 @@ Cím: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Adj meg egy Roulettecoin-címet (pl.: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2 )</translation>
+        <source>Enter a Roulettecoin address (e.g. TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE)</source>
+        <translation>Adj meg egy Roulettecoin-címet (pl.: TfoR1BxDLoQS8QSwubAZUUfGYmshRepGkE )</translation>
     </message>
     <message>
         <location line="-2"/>
