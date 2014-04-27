@@ -6,7 +6,7 @@ Release Process
 ###update (commit) version in sources
 
 
-	bitcoin-qt.pro
+	roulettecoin-qt.pro
 	contrib/verifysfbinaries/verify.sh
 	doc/README*
 	share/setup.nsi
