@@ -34,6 +34,11 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
+        <source>The Bitcoin developers</source>
+        <translation>Bitcoin-qt 客户端开发团队</translation>
+    </message>
+    <message>
+        <location line="+0"/>
         <source>The Litecoin developers</source>
         <translation>Litecoin-qt 客户端开发团队</translation>
     </message>
@@ -1648,6 +1653,11 @@ Address: %4
 </context>
 <context>
     <name>SplashScreen</name>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Bitcoin developers</source>
+        <translation>Bitcoin-qt 客户端开发团队</translation>
+    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>

@@ -34,6 +34,11 @@ Questo prodotto include software sviluppato dal progetto OpenSSL per l&apos;uso 
     </message>
     <message>
         <location line="+0"/>
+        <source>The Bitcoin developers</source>
+        <translation>Sviluppatori di Bitcoin</translation>
+    </message>
+    <message>
+        <location line="+0"/>
         <source>The Litecoin developers</source>
         <translation>Sviluppatori di Litecoin</translation>
     </message>
@@ -1649,6 +1654,11 @@ Indirizzo: %4
 </context>
 <context>
     <name>SplashScreen</name>
+    <message>
+        <location filename="../splashscreen.cpp" line="+22"/>
+        <source>The Bitcoin developers</source>
+        <translation>Sviluppatori di Bitcoin</translation>
+    </message>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
         <source>The Litecoin developers</source>
