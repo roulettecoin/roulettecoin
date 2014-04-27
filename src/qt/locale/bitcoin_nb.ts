@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Litecoin</source>
-        <translation>Om Litecoin</translation>
+        <source>About Roulettecoin</source>
+        <translation>Om Roulettecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Litecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Litecoin&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;Roulettecoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Roulettecoin&lt;/b&gt; versjon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -77,8 +77,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Litecoin-adresser for mottak av betalinger. Du kan gi forskjellige adresser til alle som skal betale deg for å holde bedre oversikt.</translation>
+        <source>These are your Roulettecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Roulettecoin-adresser for mottak av betalinger. Du kan gi forskjellige adresser til alle som skal betale deg for å holde bedre oversikt.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -92,8 +92,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Litecoin address</source>
-        <translation>Signer en melding for å bevise at du eier en Litecoin-adresse</translation>
+        <source>Sign a message to prove you own a Roulettecoin address</source>
+        <translation>Signer en melding for å bevise at du eier en Roulettecoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
-        <translation>Verifiser en melding for å være sikker på at den ble signert av en angitt Litecoin-adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified Roulettecoin address</source>
+        <translation>Verifiser en melding for å være sikker på at den ble signert av en angitt Roulettecoin-adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -132,7 +132,7 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Roulettecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -258,8 +258,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE LITECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ROULETTECOINS&lt;/b&gt;!</source>
+        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE ROULETTECOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -285,8 +285,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-56"/>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine litecoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
+        <source>Roulettecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your roulettecoins from being stolen by malware infecting your computer.</source>
+        <translation>Roulettecoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine roulettecoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -384,8 +384,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Litecoin</source>
-        <translation>Vis informasjon om Litecoin</translation>
+        <source>Show information about Roulettecoin</source>
+        <translation>Vis informasjon om Roulettecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Send til en Litecoin-adresse</translation>
+        <source>Send coins to a Roulettecoin address</source>
+        <translation>Send til en Roulettecoin-adresse</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Endre oppsett for Litecoin</translation>
+        <source>Modify configuration options for Roulettecoin</source>
+        <translation>Endre oppsett for Roulettecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -465,8 +465,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Roulettecoin</source>
+        <translation>Roulettecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -490,8 +490,8 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Litecoin</source>
-        <translation>&amp;Om Litecoin</translation>
+        <source>&amp;About Roulettecoin</source>
+        <translation>&amp;Om Roulettecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -510,13 +510,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
+        <source>Sign messages with your Roulettecoin addresses to prove you own them</source>
         <translation>Signér en melding for å bevise at du eier denne adressen</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Litecoin-adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Roulettecoin addresses</source>
+        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Roulettecoin-adresse</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -546,13 +546,13 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     </message>
     <message>
         <location line="+47"/>
-        <source>Litecoin client</source>
-        <translation>Litecoinklient</translation>
+        <source>Roulettecoin client</source>
+        <translation>Roulettecoinklient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Litecoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Litecoin-nettverket</numerusform></translation>
+        <source>%n active connection(s) to Roulettecoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Roulettecoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Roulettecoin-nettverket</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -666,8 +666,8 @@ Adresse: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Litecoin-adresse eller feil i URI-parametere.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Roulettecoin address or malformed URI parameters.</source>
+        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Roulettecoin-adresse eller feil i URI-parametere.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -681,8 +681,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Litecoin må derfor avslutte.</translation>
+        <source>A fatal error occurred. Roulettecoin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Roulettecoin må derfor avslutte.</translation>
     </message>
 </context>
 <context>
@@ -747,8 +747,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig Litecoin-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Roulettecoin address.</source>
+        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig Roulettecoin-adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -766,8 +766,8 @@ Adresse: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Litecoin-Qt</source>
-        <translation>Litecoin-Qt</translation>
+        <source>Roulettecoin-Qt</source>
+        <translation>Roulettecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -830,13 +830,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Start Litecoin automatisk etter innlogging.</translation>
+        <source>Automatically start Roulettecoin after logging in to the system.</source>
+        <translation>Start Roulettecoin automatisk etter innlogging.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Start Litecoin ved systeminnlogging</translation>
+        <source>&amp;Start Roulettecoin on system login</source>
+        <translation>&amp;Start Roulettecoin ved systeminnlogging</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -855,8 +855,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Litecoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <source>Automatically open the Roulettecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åpne automatisk Roulettecoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -865,8 +865,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Koble til Litecoin-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
+        <source>Connect to the Roulettecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Koble til Roulettecoin-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -940,8 +940,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Roulettecoin.</source>
+        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av Roulettecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -951,12 +951,12 @@ Adresse: %4
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av litecoins.</translation>
+        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av roulettecoins.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Litecoin addresses in the transaction list or not.</source>
-        <translation>Om Litecoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show Roulettecoin addresses in the transaction list or not.</source>
+        <translation>Om Roulettecoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1007,8 +1007,8 @@ Adresse: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Litecoin.</source>
-        <translation>Denne innstillingen trer i kraft etter omstart av Litecoin.</translation>
+        <source>This setting will take effect after restarting Roulettecoin.</source>
+        <translation>Denne innstillingen trer i kraft etter omstart av Roulettecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1026,8 +1026,8 @@ Adresse: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Litecoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Roulettecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Roulettecoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1080,8 +1080,8 @@ Adresse: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Kan ikke starte litecoin: klikk-og-betal håndterer</translation>
+        <source>Cannot start roulettecoin: click-to-pay handler</source>
+        <translation>Kan ikke starte roulettecoin: klikk-og-betal håndterer</translation>
     </message>
 </context>
 <context>
@@ -1230,8 +1230,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
-        <translation>Vis Litecoin-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
+        <source>Show the Roulettecoin-Qt help message to get a list with possible Roulettecoin command-line options.</source>
+        <translation>Vis Roulettecoin-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1250,13 +1250,13 @@ Adresse: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Litecoin - Debug window</source>
-        <translation>Litecoin - vindu for feilsøk</translation>
+        <source>Roulettecoin - Debug window</source>
+        <translation>Roulettecoin - vindu for feilsøk</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Kjerne</translation>
+        <source>Roulettecoin Core</source>
+        <translation>Roulettecoin Kjerne</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1265,8 +1265,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åpne Litecoin loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
+        <source>Open the Roulettecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åpne Roulettecoin loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1275,8 +1275,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Velkommen til Litecoin RPC konsoll.</translation>
+        <source>Welcome to the Roulettecoin RPC console.</source>
+        <translation>Velkommen til Roulettecoin RPC konsoll.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1301,7 +1301,7 @@ Adresse: %4
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Send Litecoins</translation>
+        <translation>Send Roulettecoins</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1351,7 +1351,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av litecoins</translation>
+        <translation>Bekreft sending av roulettecoins</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1396,7 +1396,7 @@ Adresse: %4
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Feil: Transaksjonen ble avvist. Dette kan skje om noe av beløpet allerede var brukt, f.eks. hvis du kopierte wallet.dat og noen litecoins ble brukt i kopien men ikke ble markert som brukt her.</translation>
+        <translation>Feil: Transaksjonen ble avvist. Dette kan skje om noe av beløpet allerede var brukt, f.eks. hvis du kopierte wallet.dat og noen roulettecoins ble brukt i kopien men ikke ble markert som brukt her.</translation>
     </message>
 </context>
 <context>
@@ -1459,8 +1459,8 @@ Adresse: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Skriv inn en Litecoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Skriv inn en Roulettecoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1524,8 +1524,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Litecoin-adressen</translation>
+        <source>Sign the message to prove you own this Roulettecoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Roulettecoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1560,8 +1560,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Litecoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Roulettecoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Roulettecoin-adressen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1576,8 +1576,8 @@ Adresse: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Skriv inn en Litecoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Skriv inn en Roulettecoin adresse (f.eks. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1586,8 +1586,8 @@ Adresse: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Litecoin signature</source>
-        <translation>Angi Litecoin signatur</translation>
+        <source>Enter Roulettecoin signature</source>
+        <translation>Angi Roulettecoin signatur</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1805,7 +1805,7 @@ Adresse: %4
     <message>
         <location line="+3"/>
         <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Genererte litecoins må modnes 120 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet til nettverket for å legges til i blokkjeden. Hvis den ikke kommer inn i kjeden får den tilstanden &quot;ikke akseptert&quot; og vil ikke kunne brukes. Dette skjer noen ganger hvis en annen node genererer en blokk noen sekunder fra din.</translation>
+        <translation>Genererte roulettecoins må modnes 120 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet til nettverket for å legges til i blokkjeden. Hvis den ikke kommer inn i kjeden får den tilstanden &quot;ikke akseptert&quot; og vil ikke kunne brukes. Dette skjer noen ganger hvis en annen node genererer en blokk noen sekunder fra din.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2158,7 +2158,7 @@ Adresse: %4
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Send Litecoins</translation>
+        <translation>Send Roulettecoins</translation>
     </message>
 </context>
 <context>
@@ -2208,8 +2208,8 @@ Adresse: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Litecoin version</source>
-        <translation>Litecoin versjon</translation>
+        <source>Roulettecoin version</source>
+        <translation>Roulettecoin versjon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2218,8 +2218,8 @@ Adresse: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Send kommando til -server eller litecoind</translation>
+        <source>Send command to -server or roulettecoind</source>
+        <translation>Send kommando til -server eller roulettecoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2238,13 +2238,13 @@ Adresse: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: litecoin.conf)</translation>
+        <source>Specify configuration file (default: roulettecoin.conf)</source>
+        <translation>Angi konfigurasjonsfil (standardverdi: roulettecoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: litecoind.pid)</translation>
+        <source>Specify pid file (default: roulettecoind.pid)</source>
+        <translation>Angi pid-fil (standardverdi: roulettecoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2321,24 +2321,24 @@ Adresse: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=litecoinrpc
+rpcuser=roulettecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Roulettecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, du må angi rpcpassord i konfigurasjonsfilen.
 %s
 Det anbefales at du bruker det følgende tilfeldige passordet:
-rpcbruker=litecoinrpc
+rpcbruker=roulettecoinrpc
 rpcpassord=%s
 (du behøver ikke å huske passordet)
 Brukernavnet og passordet MÅ IKKE være like.
 Om filen ikke eksisterer, opprett den nå med eier-kun-les filrettigheter.
 Det er også anbefalt at å sette varselsmelding slik du får melding om problemer.
-For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin@foo.com</translation>
+For eksempel: varselmelding=echo %%s | mail -s &quot;Roulettecoin varsel&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2352,7 +2352,7 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Roulettecoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2397,8 +2397,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
-        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Litecoin fungere riktig.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Roulettecoin will not work properly.</source>
+        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Roulettecoin fungere riktig.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2647,8 +2647,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valg: (se Litecoin Wiki for instruksjoner for oppsett av SSL)</translation>
+        <source>SSL options: (see the Roulettecoin Wiki for SSL setup instructions)</source>
+        <translation>SSL valg: (se Roulettecoin Wiki for instruksjoner for oppsett av SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2837,13 +2837,13 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Litecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Roulettecoin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Roulettecoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Litecoin på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart Roulettecoin to complete</source>
+        <translation>Lommeboken måtte skrives om: start Roulettecoin på nytt for å fullføre</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2902,8 +2902,8 @@ For eksempel: varselmelding=echo %%s | mail -s &quot;Litecoin varsel&quot; admin
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører Litecoin allerede.</translation>
+        <source>Unable to bind to %s on this computer. Roulettecoin is probably already running.</source>
+        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører Roulettecoin allerede.</translation>
     </message>
     <message>
         <location line="+64"/>

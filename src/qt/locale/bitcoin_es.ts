@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Litecoin</source>
-        <translation>Acerca de Litecoin</translation>
+        <source>About Roulettecoin</source>
+        <translation>Acerca de Roulettecoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Litecoin&lt;/b&gt; version</source>
-        <translation>Versión de &lt;b&gt;Litecoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Roulettecoin&lt;/b&gt; version</source>
+        <translation>Versión de &lt;b&gt;Roulettecoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -80,8 +80,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Litecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son sus direcciones Litecoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
+        <source>These are your Roulettecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son sus direcciones Roulettecoin para recibir pagos. Puede utilizar una diferente por cada persona emisora para saber quién le está pagando.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -95,8 +95,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Litecoin address</source>
-        <translation>Firmar un mensaje para demostrar que se posee una dirección Litecoin</translation>
+        <source>Sign a message to prove you own a Roulettecoin address</source>
+        <translation>Firmar un mensaje para demostrar que se posee una dirección Roulettecoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -120,8 +120,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Litecoin address</source>
-        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Litecoin indicada</translation>
+        <source>Verify a message to ensure it was signed with a specified Roulettecoin address</source>
+        <translation>Verificar un mensaje para comprobar que fue firmado con la dirección Roulettecoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -135,8 +135,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones Litecoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
+        <source>These are your Roulettecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones Roulettecoin para enviar pagos. Compruebe siempre la cantidad y la dirección receptora antes de transferir monedas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -261,8 +261,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS LITECOINS&lt;/b&gt;!&quot;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ROULETTECOINS&lt;/b&gt;!</source>
+        <translation>Atencion: ¡Si cifra su monedero y pierde la contraseña perderá &lt;b&gt;TODOS SUS ROULETTECOINS&lt;/b&gt;!&quot;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -288,8 +288,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-56"/>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus litecoins de robo por malware que infecte su sistema.</translation>
+        <source>Roulettecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your roulettecoins from being stolen by malware infecting your computer.</source>
+        <translation>Roulettecoin se cerrará para finalizar el proceso de cifrado. Recuerde que el cifrado de su monedero no puede proteger totalmente sus roulettecoins de robo por malware que infecte su sistema.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -387,8 +387,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Litecoin</source>
-        <translation>Mostrar información acerca de Litecoin</translation>
+        <source>Show information about Roulettecoin</source>
+        <translation>Mostrar información acerca de Roulettecoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -432,13 +432,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar monedas a una dirección Litecoin</translation>
+        <source>Send coins to a Roulettecoin address</source>
+        <translation>Enviar monedas a una dirección Roulettecoin</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Modificar las opciones de configuración de Litecoin</translation>
+        <source>Modify configuration options for Roulettecoin</source>
+        <translation>Modificar las opciones de configuración de Roulettecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -468,8 +468,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Roulettecoin</source>
+        <translation>Roulettecoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -493,8 +493,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Litecoin</source>
-        <translation>&amp;Acerca de Litecoin</translation>
+        <source>&amp;About Roulettecoin</source>
+        <translation>&amp;Acerca de Roulettecoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -513,13 +513,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones Litecoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Roulettecoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Roulettecoin para demostrar la propiedad</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones Litecoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Roulettecoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Roulettecoin concretas</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -549,13 +549,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+47"/>
-        <source>Litecoin client</source>
-        <translation>Cliente Litecoin</translation>
+        <source>Roulettecoin client</source>
+        <translation>Cliente Roulettecoin</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n conexión activa hacia la red Litecoin</numerusform><numerusform>%n conexiones activas hacia la red Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Roulettecoin network</source>
+        <translation><numerusform>%n conexión activa hacia la red Roulettecoin</numerusform><numerusform>%n conexiones activas hacia la red Roulettecoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -669,8 +669,8 @@ Dirección: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Litecoin inválida o a parámetros de URI mal formados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Roulettecoin address or malformed URI parameters.</source>
+        <translation>¡No se puede interpretar la URI! Esto puede deberse a una dirección Roulettecoin inválida o a parámetros de URI mal formados.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -684,8 +684,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
-        <translation>Ha ocurrido un error crítico. Litecoin ya no puede continuar con seguridad y se cerrará.</translation>
+        <source>A fatal error occurred. Roulettecoin can no longer continue safely and will quit.</source>
+        <translation>Ha ocurrido un error crítico. Roulettecoin ya no puede continuar con seguridad y se cerrará.</translation>
     </message>
 </context>
 <context>
@@ -750,8 +750,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección Litecoin válida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Roulettecoin address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección Roulettecoin válida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -769,8 +769,8 @@ Dirección: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Litecoin-Qt</source>
-        <translation>Litecoin-Qt</translation>
+        <source>Roulettecoin-Qt</source>
+        <translation>Roulettecoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -832,13 +832,13 @@ Dirección: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Iniciar Litecoin automáticamente al encender el sistema.</translation>
+        <source>Automatically start Roulettecoin after logging in to the system.</source>
+        <translation>Iniciar Roulettecoin automáticamente al encender el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Iniciar Litecoin al iniciar el sistema</translation>
+        <source>&amp;Start Roulettecoin on system login</source>
+        <translation>&amp;Iniciar Roulettecoin al iniciar el sistema</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -857,8 +857,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente Litecoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Roulettecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Roulettecoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -867,8 +867,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Litecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conectar a la red Litecoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
+        <source>Connect to the Roulettecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conectar a la red Roulettecoin a través de un proxy SOCKS (ej. para conectar con la red Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -942,8 +942,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Roulettecoin.</source>
+        <translation>El idioma de la interfaz de usuario puede establecerse aquí. Este ajuste se aplicará cuando se reinicie Roulettecoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -957,8 +957,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Litecoin addresses in the transaction list or not.</source>
-        <translation>Mostrar o no las direcciones Litecoin en la lista de transacciones.</translation>
+        <source>Whether to show Roulettecoin addresses in the transaction list or not.</source>
+        <translation>Mostrar o no las direcciones Roulettecoin en la lista de transacciones.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1009,8 +1009,8 @@ Dirección: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Litecoin.</source>
-        <translation>Esta configuración tendrá efecto tras reiniciar Litecoin.</translation>
+        <source>This setting will take effect after restarting Roulettecoin.</source>
+        <translation>Esta configuración tendrá efecto tras reiniciar Roulettecoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1028,8 +1028,8 @@ Dirección: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Litecoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Roulettecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Roulettecoin después de que se haya establecido una conexión , pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1082,8 +1082,8 @@ Dirección: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>No se pudo iniciar litecoin: manejador de pago-al-clic</translation>
+        <source>Cannot start roulettecoin: click-to-pay handler</source>
+        <translation>No se pudo iniciar roulettecoin: manejador de pago-al-clic</translation>
     </message>
 </context>
 <context>
@@ -1232,8 +1232,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Litecoin-Qt help message to get a list with possible Litecoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de Litecoin-Qt que enumera las opciones disponibles de línea de órdenes para Litecoin.</translation>
+        <source>Show the Roulettecoin-Qt help message to get a list with possible Roulettecoin command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de Roulettecoin-Qt que enumera las opciones disponibles de línea de órdenes para Roulettecoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1252,13 +1252,13 @@ Dirección: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Litecoin - Debug window</source>
-        <translation>Litecoin - Ventana de depuración</translation>
+        <source>Roulettecoin - Debug window</source>
+        <translation>Roulettecoin - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Litecoin Core</source>
-        <translation>Núcleo de Litecoin</translation>
+        <source>Roulettecoin Core</source>
+        <translation>Núcleo de Roulettecoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1267,7 +1267,7 @@ Dirección: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Roulettecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Abrir el archivo de registro de depuración en el directorio actual de datos. Esto puede llevar varios segundos para archivos de registro grandes.</translation>
     </message>
     <message>
@@ -1277,8 +1277,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Litecoin</translation>
+        <source>Welcome to the Roulettecoin RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Roulettecoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1461,8 +1461,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección Litecoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Roulettecoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1526,8 +1526,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección Litecoin</translation>
+        <source>Sign the message to prove you own this Roulettecoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Roulettecoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1562,8 +1562,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Litecoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Roulettecoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Roulettecoin indicada</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1578,8 +1578,8 @@ Dirección: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Litecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introduzca una dirección Litecoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Roulettecoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introduzca una dirección Roulettecoin (ej. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1588,8 +1588,8 @@ Dirección: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Litecoin signature</source>
-        <translation>Introduzca una firma Litecoin</translation>
+        <source>Enter Roulettecoin signature</source>
+        <translation>Introduzca una firma Roulettecoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2210,8 +2210,8 @@ Dirección: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Litecoin version</source>
-        <translation>Versión de Litecoin</translation>
+        <source>Roulettecoin version</source>
+        <translation>Versión de Roulettecoin</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2220,8 +2220,8 @@ Dirección: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or litecoind</source>
-        <translation>Envíar comando a -server o litecoind</translation>
+        <source>Send command to -server or roulettecoind</source>
+        <translation>Envíar comando a -server o roulettecoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2243,14 +2243,14 @@ Dirección: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: litecoin.conf)</source>
-        <translation>Especificar archivo de configuración (predeterminado: litecoin.conf)
+        <source>Specify configuration file (default: roulettecoin.conf)</source>
+        <translation>Especificar archivo de configuración (predeterminado: roulettecoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: litecoind.pid)</source>
-        <translation>Especificar archivo pid (predeterminado: litecoin.pid)
+        <source>Specify pid file (default: roulettecoind.pid)</source>
+        <translation>Especificar archivo pid (predeterminado: roulettecoin.pid)
 </translation>
     </message>
     <message>
@@ -2331,24 +2331,24 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=litecoinrpc
+rpcuser=roulettecoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Roulettecoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un valor rpcpassword en el archivo de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=litecoinrpc
+rpcuser=roulettecoinrpc
 rpcpassword=%s
 (no es necesario recordar esta contraseña)
 El nombre de usuario y la contraseña DEBEN NO ser iguales.
 Si el archivo no existe, créelo con permisos de archivo de solo lectura.
 Se recomienda también establecer alertnotify para recibir notificaciones de problemas.
-Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo.com
+Por ejemplo: alertnotify=echo %%s | mail -s &quot;Roulettecoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2363,8 +2363,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Litecoin is probably already running.</source>
-        <translation>No se puede bloquear el directorio de datos %s. Probablemente Litecoin ya se está ejecutando.</translation>
+        <source>Cannot obtain a lock on data directory %s. Roulettecoin is probably already running.</source>
+        <translation>No se puede bloquear el directorio de datos %s. Probablemente Roulettecoin ya se está ejecutando.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2408,8 +2408,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Litecoin will not work properly.</source>
-        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Litecoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Roulettecoin will not work properly.</source>
+        <translation>Precaución: Por favor, ¡revise que la fecha y hora de su ordenador son correctas! Si su reloj está mal, Roulettecoin no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2658,8 +2658,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>Opciones SSL: (ver la Litecoin Wiki para instrucciones de configuración SSL)</translation>
+        <source>SSL options: (see the Roulettecoin Wiki for SSL setup instructions)</source>
+        <translation>Opciones SSL: (ver la Roulettecoin Wiki para instrucciones de configuración SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2858,13 +2858,13 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin</source>
-        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Litecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Roulettecoin</source>
+        <translation>Error al cargar wallet.dat: El monedero requiere una versión más reciente de Roulettecoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Litecoin to complete</source>
-        <translation>El monedero ha necesitado ser reescrito. Reinicie Litecoin para completar el proceso</translation>
+        <source>Wallet needed to be rewritten: restart Roulettecoin to complete</source>
+        <translation>El monedero ha necesitado ser reescrito. Reinicie Roulettecoin para completar el proceso</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2923,8 +2923,8 @@ Por ejemplo: alertnotify=echo %%s | mail -s &quot;Litecoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Litecoin is probably already running.</source>
-        <translation>No es posible conectar con %s en este sistema. Probablemente Litecoin ya está ejecutándose.</translation>
+        <source>Unable to bind to %s on this computer. Roulettecoin is probably already running.</source>
+        <translation>No es posible conectar con %s en este sistema. Probablemente Roulettecoin ya está ejecutándose.</translation>
     </message>
     <message>
         <location line="+64"/>
