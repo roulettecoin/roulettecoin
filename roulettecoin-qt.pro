@@ -2,7 +2,7 @@ TEMPLATE = app
 TARGET = roulettecoin-qt
 macx:TARGET = "Roulettecoin-Qt"
 VERSION = 0.8.7.1
-INCLUDEPATH += src src/json src/qt
+INCLUDEPATH += src src/json src/qt src/sphlib
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
@@ -210,7 +210,6 @@ HEADERS += src/qt/bitcoingui.h \
     src/allocators.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
-    src/scrypt.h \
     src/version.h \
     src/netbase.h \
     src/clientversion.h \
@@ -219,7 +218,25 @@ HEADERS += src/qt/bitcoingui.h \
     src/threadsafety.h \
     src/limitedmap.h \
     src/qt/macnotificationhandler.h \
-    src/qt/splashscreen.h
+    src/qt/splashscreen.h \
+    src/roulette.h \
+    src/sphlib/sph_blake.h \
+    src/sphlib/sph_bmw.h \
+    src/sphlib/sph_cubehash.h \
+    src/sphlib/sph_echo.h \
+    src/sphlib/sph_fugue.h \
+    src/sphlib/sph_groestl.h \
+    src/sphlib/sph_hamsi.h \
+    src/sphlib/sph_jh.h \
+    src/sphlib/sph_keccak.h \
+    src/sphlib/sph_luffa.h \
+    src/sphlib/sph_sha2.h \
+    src/sphlib/sph_shabal.h \
+    src/sphlib/sph_shavite.h \
+    src/sphlib/sph_simd.h \
+    src/sphlib/sph_skein.h \
+    src/sphlib/sph_types.h \
+    src/sphlib/sph_whirlpool.h
 
 SOURCES += src/qt/bitcoin.cpp \
     src/qt/bitcoingui.cpp \
@@ -286,11 +303,26 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/notificator.cpp \
     src/qt/paymentserver.cpp \
     src/qt/rpcconsole.cpp \
-    src/scrypt.cpp \
     src/noui.cpp \
     src/leveldb.cpp \
     src/txdb.cpp \
-    src/qt/splashscreen.cpp
+    src/qt/splashscreen.cpp \
+    src/sphlib/blake.c \
+    src/sphlib/bmw.c \
+    src/sphlib/cubehash.c \
+    src/sphlib/echo.c \
+    src/sphlib/fugue.c \
+    src/sphlib/groestl.c \
+    src/sphlib/hamsi.c \
+    src/sphlib/jh.c \
+    src/sphlib/keccak.c \
+    src/sphlib/luffa.c \
+    src/sphlib/sha2big.c \
+    src/sphlib/shabal.c \
+    src/sphlib/shavite.c \
+    src/sphlib/simd.c \
+    src/sphlib/skein.c \
+    src/sphlib/whirlpool.c
 
 RESOURCES += src/qt/bitcoin.qrc
 
@@ -322,15 +354,6 @@ QT += testlib
 TARGET = roulettecoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
-}
-
-contains(USE_SSE2, 1) {
-DEFINES += USE_SSE2
-gccsse2.input  = SOURCES_SSE2
-gccsse2.output = $$PWD/build/${QMAKE_FILE_BASE}.o
-gccsse2.commands = $(CXX) -c $(CXXFLAGS) $(INCPATH) -o ${QMAKE_FILE_OUT} ${QMAKE_FILE_NAME} -msse2 -mstackrealign
-QMAKE_EXTRA_COMPILERS += gccsse2
-SOURCES_SSE2 += src/scrypt-sse2.cpp
 }
 
 # Todo: Remove this line when switching to Qt5, as that option was removed
