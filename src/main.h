@@ -1295,6 +1295,8 @@ public:
     unsigned int nTime;
     unsigned int nBits;
     unsigned int nNonce;
+    unsigned int nReserved1;
+    unsigned int nReserved2;
 
     CBlockHeader()
     {
@@ -1310,6 +1312,8 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
+        READWRITE(nReserved1);
+        READWRITE(nReserved2);
     )
 
     void SetNull()
@@ -1320,6 +1324,8 @@ public:
         nTime = 0;
         nBits = 0;
         nNonce = 0;
+        nReserved1 = 0;
+        nReserved2 = 0;
     }
 
     bool IsNull() const
@@ -1329,7 +1335,7 @@ public:
 
     uint256 GetHash() const
     {
-        return RouletteHash(BEGIN(nVersion), END(nNonce));
+        return RouletteHash(BEGIN(nVersion), END(nReserved2));
     }
 
     int64 GetBlockTime() const
@@ -1387,6 +1393,8 @@ public:
         block.nTime          = nTime;
         block.nBits          = nBits;
         block.nNonce         = nNonce;
+        block.nReserved1     = nReserved1;
+        block.nReserved2     = nReserved2;
         return block;
     }
 
@@ -1500,14 +1508,14 @@ public:
 
     void print() const
     {
-        printf("CBlock(hash=%s, input=%s, PoW=%s, ver=%d, hashPrevBlock=%s, hashMerkleRoot=%s, nTime=%u, nBits=%08x, nNonce=%u, vtx=%"PRIszu")\n",
+        printf("CBlock(hash=%s, input=%s, PoW=%s, ver=%d, hashPrevBlock=%s, hashMerkleRoot=%s, nTime=%u, nBits=%08x, nNonce=%u, nReserved1=%u, nReserved2=%u vtx=%"PRIszu")\n",
             GetHash().ToString().c_str(),
             HexStr(BEGIN(nVersion),BEGIN(nVersion)+80,false).c_str(),
             GetPoWHash().ToString().c_str(),
             nVersion,
             hashPrevBlock.ToString().c_str(),
             hashMerkleRoot.ToString().c_str(),
-            nTime, nBits, nNonce,
+            nTime, nBits, nNonce, nReserved1, nReserved2,
             vtx.size());
         for (unsigned int i = 0; i < vtx.size(); i++)
         {
@@ -1673,6 +1681,8 @@ public:
     unsigned int nTime;
     unsigned int nBits;
     unsigned int nNonce;
+    unsigned int nReserved1;
+    unsigned int nReserved2;
 
 
     CBlockIndex()
@@ -1694,6 +1704,8 @@ public:
         nTime          = 0;
         nBits          = 0;
         nNonce         = 0;
+        nReserved1     = 0;
+        nReserved2     = 0;
     }
 
     CBlockIndex(CBlockHeader& block)
@@ -1715,6 +1727,8 @@ public:
         nTime          = block.nTime;
         nBits          = block.nBits;
         nNonce         = block.nNonce;
+        nReserved1     = block.nReserved1;
+        nReserved2     = block.nReserved2;
     }
 
     CDiskBlockPos GetBlockPos() const {
@@ -1745,6 +1759,8 @@ public:
         block.nTime          = nTime;
         block.nBits          = nBits;
         block.nNonce         = nNonce;
+        block.nReserved1     = nReserved1;
+        block.nReserved2     = nReserved2;
         return block;
     }
 
@@ -1879,6 +1895,8 @@ public:
         READWRITE(nTime);
         READWRITE(nBits);
         READWRITE(nNonce);
+        READWRITE(nReserved1);
+        READWRITE(nReserved2);
     )
 
     uint256 GetBlockHash() const
@@ -1890,6 +1908,8 @@ public:
         block.nTime           = nTime;
         block.nBits           = nBits;
         block.nNonce          = nNonce;
+        block.nReserved1      = nReserved1;
+        block.nReserved2      = nReserved2;
         return block.GetHash();
     }
 

@@ -2099,23 +2099,9 @@ bool CBlock::CheckBlock(CValidationState &state, bool fCheckPOW, bool fCheckMerk
     if (vtx.empty() || vtx.size() > MAX_BLOCK_SIZE || ::GetSerializeSize(*this, SER_NETWORK, PROTOCOL_VERSION) > MAX_BLOCK_SIZE)
         return state.DoS(100, error("CheckBlock() : size limits failed"));
 
-    // Roulettecoin: Special short-term limits to avoid 10,000 BDB lock limit:
-    if (GetBlockTime() < 1376568000)  // stop enforcing 15 August 2013 00:00:00
-    {
-        // Rule is: #unique txids referenced <= 4,500
-        // ... to prevent 10,000 BDB lock exhaustion on old clients
-        set<uint256> setTxIn;
-        for (size_t i = 0; i < vtx.size(); i++)
-        {
-            setTxIn.insert(vtx[i].GetHash());
-            if (i == 0) continue; // skip coinbase txin
-            BOOST_FOREACH(const CTxIn& txin, vtx[i].vin)
-                setTxIn.insert(txin.prevout.hash);
-        }
-        size_t nTxids = setTxIn.size();
-        if (nTxids > 4500)
-            return error("CheckBlock() : 15 August maxlocks violation");
-    }
+    // Roulettecoin: Check reserved fields:
+    if (nReserved1 != 0 || nReserved2 != 0)
+        return state.DoS(100, error("CheckBlock() : reserved check failed"));
 
     // Check proof of work matches claimed amount
     if (fCheckPOW && !CheckProofOfWork(GetPoWHash(), nBits))
@@ -2794,6 +2780,8 @@ bool InitBlockIndex() {
         block.nTime    = 1317972665;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2084524493;
+        block.nReserved1 = 0;
+        block.nReserved2 = 0;
 
         if (fTestNet)
         {
@@ -4618,7 +4606,7 @@ void static RoulettecoinMiner(CWallet *pwallet)
             uint256 thash;
             loop
             {
-                thash = RouletteHash(BEGIN(pblock->nVersion), END(pblock->nNonce));
+                thash = RouletteHash(BEGIN(pblock->nVersion), END(pblock->nReserved2));
 
                 if (thash <= hashTarget)
                 {
