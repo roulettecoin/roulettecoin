@@ -1086,14 +1086,14 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 50 * COIN;
 
-    // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 840000); // Roulettecoin: 840k blocks in ~4 years
+    // Subsidy is cut in half every 525600 blocks, which will occur approximately every year
+    nSubsidy >>= (nHeight / 525600); // Roulettecoin: 525.6k blocks in ~1 years
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3.5 * 24 * 60 * 60; // Roulettecoin: 3.5 days
-static const int64 nTargetSpacing = 2.5 * 60; // Roulettecoin: 2.5 minutes
+static const int64 nTargetTimespan = 24 * 60 * 60; // Roulettecoin: 1 day
+static const int64 nTargetSpacing = 60; // Roulettecoin: 1 minute
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
