@@ -55,7 +55,7 @@ inline uint256 RouletteHash(const T1 pbegin, const T1 pend)
 
     for(unsigned i = 0; i < 16; i++)
     {
-        unsigned hdec = hash[7] & 0xf;
+        unsigned hdec = hash[0] & 0xf;
         switch(hdec)
         {
             case 0:
