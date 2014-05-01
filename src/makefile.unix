@@ -133,7 +133,22 @@ OBJS= \
     obj/rpcblockchain.o \
     obj/rpcrawtransaction.o \
     obj/script.o \
-    obj/scrypt.o \
+    obj/blake.o \
+    obj/bmw.o \
+    obj/cubehash.o \
+    obj/echo.o \
+    obj/fugue.o \
+    obj/groestl.o \
+    obj/hamsi.o \
+    obj/jh.o \
+    obj/keccak.o \
+    obj/luffa.o \
+    obj/sha2big.o \
+    obj/shabal.o \
+    obj/shavite.o \
+    obj/simd.o \
+    obj/skein.o \
+    obj/whirlpool.o \
     obj/sync.o \
     obj/util.o \
     obj/wallet.o \
@@ -145,16 +160,22 @@ OBJS= \
     obj/txdb.o
 
 
-ifdef USE_SSE2
-DEFS += -DUSE_SSE2
-OBJS_SSE2= obj/scrypt-sse2.o
-OBJS += $(OBJS_SSE2)
-endif
-
 all: roulettecoind
 
 test check: test_roulettecoin FORCE
 	./test_roulettecoin
+
+#
+# sphlib support
+#
+DEFS += $(addprefix -I,$(CURDIR)/sphlib)
+
+obj/%.o: sphlib/%.c
+	$(CC) -c $(xCXXFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
+	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
+	  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
+	  rm -f $(@:%.o=%.d)
 
 #
 # LevelDB support
@@ -174,13 +195,6 @@ obj/build.h: FORCE
 	/bin/sh ../share/genbuild.sh obj/build.h
 version.cpp: obj/build.h
 DEFS += -DHAVE_BUILD_INFO
-
-obj/%-sse2.o: %-sse2.cpp
-	$(CXX) -c $(xCXXFLAGS) -msse2 -MMD -MF $(@:%.o=%.d) -o $@ $<
-	@cp $(@:%.o=%.d) $(@:%.o=%.P); \
-	  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
-	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
-	  rm -f $(@:%.o=%.d)
 
 obj/%.o: %.cpp
 	$(CXX) -c $(xCXXFLAGS) -MMD -MF $(@:%.o=%.d) -o $@ $<
