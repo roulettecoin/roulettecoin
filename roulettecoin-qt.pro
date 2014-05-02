@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = roulettecoin-qt
 macx:TARGET = "Roulettecoin-Qt"
-VERSION = 0.8.7.1
+VERSION = 0.8.8.1
 INCLUDEPATH += src src/json src/qt src/sphlib
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
