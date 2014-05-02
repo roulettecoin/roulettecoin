@@ -4482,6 +4482,8 @@ void FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash
             unsigned int nTime;
             unsigned int nBits;
             unsigned int nNonce;
+            unsigned int nReserved1;
+            unsigned int nReserved2;
         }
         block;
         unsigned char pchPadding0[64];
@@ -4497,6 +4499,8 @@ void FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash
     tmp.block.nTime          = pblock->nTime;
     tmp.block.nBits          = pblock->nBits;
     tmp.block.nNonce         = pblock->nNonce;
+    tmp.block.nReserved1     = pblock->nReserved1;
+    tmp.block.nReserved2     = pblock->nReserved2;
 
     FormatHashBlocks(&tmp.block, sizeof(tmp.block));
     FormatHashBlocks(&tmp.hash1, sizeof(tmp.hash1));
